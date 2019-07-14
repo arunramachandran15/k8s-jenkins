@@ -1,4 +1,4 @@
-def project = 'k8s-cicd'
+def project = 'k8s-cicd-246617'
 def  appName = 'gceme'
 def  feSvcName = "${appName}-frontend"
 def  imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
